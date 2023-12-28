@@ -1,26 +1,34 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD candidate, Physics, University of California, San Diego
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: >
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+***Boosting AI with physics, and understanding physics with AI.***
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Welcome!
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a PhD candidate in physics at the University of California, San Diego, working at the intersection of physics, machine learning and unconventional computing. 
+
+While computing is a mathematical concept, realizing it requires physics. Sure, modern computers are cool with CMOS technology, but physics has so much more than standard CMOS electronics. 
+
+As an example, quantum entanglement correlates all qubits within a quantum computer, enabling us to process complex problems with incredible speed. For non-quantum systems with long-range order, we can also harness correlations among distant units to achieve unprecedented parallelism. This line of thought leads to the idea of *MemComputing*. (For more information, see [this book](https://academic.oup.com/book/42003) and [this review paper](https://pubs.aip.org/aip/jap/article/123/18/180901/154864)!)
+
+Machine learning adds another layer of intrigue to this landscape. With physics and novel computing paradigms, we can better understand and accelerate AI, while the power of AI allows us to develop even faster algorithms.
+
+With the recent surge of large language models, the possibilities are endless. What can we learn from a foundation model for physics? And will physical principles help us along the journey towards artificial general intelligence? The answers might be closer than we think.
+
+*Note: If you're checking out my published work, my name is spelled "Yuan-Hang Zhang" there.*

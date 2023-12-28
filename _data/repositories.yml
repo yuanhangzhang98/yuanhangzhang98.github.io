@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - yuanhangzhang98
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - yuanhangzhang98/transformer_quantum_state
+  - yuanhangzhang98/ml_quantum_compiling
