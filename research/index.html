@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Yuanhang Zhang</title>
+<meta name="description" content="Three pillars: AI for physics, physics for AI, and autonomous LLM-driven research. Plus a manifesto for an LLM-native research track running in parallel to the human one.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='42' fill='%230A0E1A' stroke='%23E8A547' stroke-width='3'/%3E%3Ccircle cx='50' cy='50' r='6' fill='%23E8A547'/%3E%3Cellipse cx='50' cy='50' rx='36' ry='14' fill='none' stroke='%238FB4FF' stroke-width='2'/%3E%3Cellipse cx='50' cy='50' rx='36' ry='14' fill='none' stroke='%238FB4FF' stroke-width='2' transform='rotate(60 50 50)'/%3E%3Cellipse cx='50' cy='50' rx='36' ry='14' fill='none' stroke='%238FB4FF' stroke-width='2' transform='rotate(-60 50 50)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,30..100,0..1;1,9..144,300..600,30..100,0..1&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..600&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+
+<div class="top-banner">
+  <div class="container top-banner-inner">
+    <span>Hiring students</span>
+    <span class="sep">·</span>
+    <a href="/join/">Details →</a>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="nav-brand"><strong>Yuanhang</strong> Zhang</a>
+    <div class="nav-links">
+      <a href="/research/" aria-current="page"><span>Research</span></a>
+      <a href="/papers/"><span>Papers</span></a>
+      <a href="/cv/"><span>CV</span></a>
+      <a href="/join/"><span class="marker">●</span><span>Join</span></a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="container">
+    <h1>Three threads, one <em>question</em>: how do physical and computational systems learn?</h1>
+    <p class="lede">
+      My work sits where physics, machine learning, and autonomous systems meet. Three pillars below; a manifesto first.
+    </p>
+  </div>
+</header>
+
+<section class="section vision">
+  <div class="container">
+    <blockquote class="pullquote reveal">
+      Agents publishing to agents.
+      Failure as a <span class="em">first-class artifact</span>.
+      Experiments fully reproducible. Humans observe.
+    </blockquote>
+    <div class="manifesto">
+      <div>
+        <p class="reveal">
+          The human research enterprise is, on most days, magnificent. It is also slow, narrative-bound, and selective in ways that hide as much as they reveal. Negative results vanish. Reproducibility is aspirational. Reviewing scales with attention, not with the rate of new ideas. We are squeezing 21st-century volumes of inquiry through a 20th-century pipe.
+        </p>
+        <p class="reveal">
+          I think a second track is now possible &mdash; one operated end-to-end by autonomous LLM agents, in <em>agent-native</em> formats. Hypotheses framed as structured proposals. Experiments expressed as deterministic, containerized runs. Papers written in a form that other agents can ingest and extend. A venue whose currency is provenance rather than prestige.
+        </p>
+      </div>
+      <div>
+        <p class="reveal">
+          The premise is not that machines should replace human science. It is that they can run a <strong>parallel discovery process</strong> at a different cost structure and a different rate. Every experiment is reproducible by construction. Every dead end is logged. The two tracks cross-pollinate: humans seed problems and interpret results; agents enumerate, perturb, search, and report.
+        </p>
+        <p class="reveal">
+          My current work is laying the scientific foundations &mdash; a first paper frames <em>scientific discovery as meta-optimization</em>, and uses combinatorial optimization as a small, fully measurable arena to validate the loop. The platform, the venue, and the dashboards will follow.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <article id="autonomous" class="pillar-deep">
+      <div class="pillar-num">I. Autonomous research</div>
+      <h2>End-to-end LLM-driven <em>scientific workflows</em></h2>
+      <div class="prose">
+        <p>
+          The newest pillar &mdash; and, I think, the highest-leverage. The starting question: what if we treat the act of scientific discovery itself as an <strong>optimization problem over strategies</strong>, with the LLM as the proposal distribution and experimental feedback as the gradient signal? The first installment, <em>Scientific discovery as meta-optimization</em>, tests this framing on combinatorial optimization &mdash; a domain where the loop is closed, the metrics are real, and the agent has nowhere to hide.
+        </p>
+        <p>
+          From there, the program scales up: <strong>agents that frame problems</strong>, <strong>agents that design experiments</strong>, <strong>agents that draft and review papers</strong>. Crucially, everything is built so that <em>failure is preserved</em>. A discarded hypothesis, in this framework, is not noise &mdash; it is evidence. Aggregating those signals is what makes the second track eventually do science, not just generate text.
+        </p>
+        <p>
+          Long-term, I am after an <strong>LLM-native publication venue</strong>: a place where the artifacts are not PDFs but structured proposals, reproducible runs, and machine-readable critiques; where agents review each other; and where humans walk in for the parts they enjoy and the decisions that need taste.
+        </p>
+      </div>
+      <figure class="pillar-figure">
+        <img src="/assets/img/auto_research_dag_plot.jpg" alt="Search graph from an autonomous-research run — over 400 nodes coloured by depth" loading="lazy">
+        <figcaption>Search graph from one autonomous-research run — 400+ nodes, coloured by depth.</figcaption>
+      </figure>
+      <div class="pillar-papers">
+        <span class="label">First brick</span>
+        <ul>
+          <li><a href="https://doi.org/10.21203/rs.3.rs-9108409/v1">Zhang, Sipling &amp; Di Ventra (2026)</a> — Scientific discovery as meta-optimization: a combinatorial optimization case study</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="physics-for-ai" class="pillar-deep">
+      <div class="pillar-num">II. Physics for AI</div>
+      <h2>Long-range order as a <em>computational paradigm</em></h2>
+      <div class="prose">
+        <p>
+          Conventional computing has, for decades, equated parallelism with spatial multiplicity &mdash; more cores, more tensors. But physics provides a different kind of parallelism: <strong>collective dynamics with long-range order</strong>, where distant components of a system align without explicit communication. This is the insight behind <em>memcomputing</em>, and it is what my work tries to harness.
+        </p>
+        <p>
+          My PhD established several pieces of the theoretical foundation &mdash; <strong>directed-percolation </strong> in digital memcomputing machines, the <strong>self-averaging property</strong> that makes their convergence robust, and the relationship between <strong>memory and long-range order in dynamical systems</strong>. With Prof. Ivan Schuller's group, we showed experimentally that <em>thermal neuristor networks</em> &mdash; VO₂-based oscillators coupled through heat &mdash; exhibit exactly the collective dynamics the theory predicts. 
+        </p>
+        <p>
+          Looking forward, the goal is a complete <strong>nonlinear dynamical-systems substrate for AI</strong>: neuromorphic devices built from novel materials, theory that explains when collective order is computationally useful, and architectures that exploit both.
+        </p>
+      </div>
+      <figure class="pillar-figure">
+        <video src="/assets/img/long_range_order.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Long-range order emerging in a coupled lattice"></video>
+        <figcaption>Long-range order emerging in a coupled dynamical lattice.</figcaption>
+      </figure>
+      <div class="pillar-papers">
+        <span class="label">Representative work</span>
+        <ul>
+          <li><a href="https://www.nature.com/articles/s41467-024-51254-4">Zhang, Sipling, Qiu, Schuller &amp; Di Ventra (2024)</a> — Collective dynamics and long-range order in thermal neuristor networks · <em>Nat. Commun.</em> 15, 6986</li>
+          <li><a href="https://doi.org/10.1103/vwk9-79f7">Sipling, Zhang &amp; Di Ventra (2025)</a> — Memory-induced long-range order in dynamical systems · <em>Phys. Rev. E</em> 112, 014124</li>
+          <li><a href="https://doi.org/10.1088/1367-2630/ae4137">Zhang, Sipling &amp; Di Ventra (2026)</a> — Memory-induced long-range order drag · <em>New J. Phys.</em> 28, 025001</li>
+          <li><a href="https://doi.org/10.1103/f8tv-jv1b">Sipling, Zhang &amp; Di Ventra (2026)</a> — Phase-space engineering and collective dynamics in memcomputing · <em>Phys. Rev. Applied</em> 25, 014048</li>
+          <li><a href="https://doi.org/10.1002/adma.202306818">Qiu, Zhang, Di Ventra &amp; Schuller (2023)</a> — Reconfigurable cascaded thermal neuristors for neuromorphic computing · <em>Adv. Mater.</em> 35, 2306818</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="ai-for-physics" class="pillar-deep">
+      <div class="pillar-num">III. AI for physics</div>
+      <h2>Machine learning for quantum systems</h2>
+      <div class="prose">
+        <p>
+          Quantum many-body problems sit at the centre of condensed-matter physics; their state spaces are intractable, but their structure is rich, and that structure is what learning systems thrive on. I built <strong>Transformer Quantum State</strong> &mdash; a multipurpose transformer-based variational ansatz that handles a family of different Hamiltonians within a single architecture.
+        </p>
+        <p>
+          On the algorithmic side, my pre-PhD work used <strong>reinforcement learning to compile topological quantum gates</strong>, showing that braiding sequences for non-Abelian anyons can be discovered automatically with fidelity competitive with hand-designed sequences. More recently I have been working toward <em>large quantum models</em>: foundation-scale architectures that learn quantum states across systems, geometries, and interaction structures.
+        </p>
+      </div>
+      <figure class="pillar-figure">
+        <img src="/assets/img/transformer.png" alt="Transformer Quantum State architecture" loading="lazy">
+        <figcaption>The Transformer Quantum State architecture.</figcaption>
+      </figure>
+      <div class="pillar-papers">
+        <span class="label">Representative work</span>
+        <ul>
+          <li><a href="https://doi.org/10.1103/PhysRevB.107.075147">Zhang &amp; Di Ventra (2023)</a> — Transformer quantum state: a multipurpose model for quantum many-body problems · <em>Phys. Rev. B</em> 107, 075147</li>
+          <li><a href="https://doi.org/10.1103/PhysRevLett.125.170501">Zhang, Zheng, Zhang &amp; Deng (2020)</a> — Topological quantum compiling with reinforcement learning · <em>Phys. Rev. Lett.</em> 125, 170501</li>
+          <li><a href="https://doi.org/10.1103/PhysRevA.106.042420">Zhang &amp; Di Ventra (2022)</a> — Efficient quantum state tomography with mode-assisted training · <em>Phys. Rev. A</em> 106, 042420</li>
+          <li><a href="https://arxiv.org/abs/2509.04923">Du, Zhu, Zhang et al. (2025)</a> — AI for representing and characterizing quantum systems · <em>arXiv:2509.04923</em></li>
+          <li><a href="https://arxiv.org/abs/2505.09742">Zhang &amp; Di Ventra (2025)</a> — A generative neural annealer for black-box combinatorial optimization · <em>arXiv:2505.09742</em></li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Research progress, <em>live</em> — coming online.</h2>
+    <div class="placeholder reveal">
+      <div class="label">Forthcoming</div>
+      <p>
+        A live view of the autonomous-research stack: open hypotheses, running experiments, paper queue, failure log. Once the agents have their own venue, this is where humans will watch the second track unfold in real time.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-line">
+    <span>Yuanhang Zhang · UCSD → USTC</span>
+    <span class="meta">
+      <a href="https://scholar.google.com/citations?user=OfptG2AAAAAJ&hl=en" rel="noopener">Scholar</a>
+      <a href="https://github.com/yuanhangzhang98" rel="noopener">GitHub</a>
+      <a href="https://orcid.org/0000-0002-5415-3307" rel="noopener">ORCID</a>
+      <a href="mailto:yuz092@ucsd.edu">Email</a>
+    </span>
+    <span>Last updated&nbsp;<span data-last-updated>—</span></span>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+
+</body>
+</html>
