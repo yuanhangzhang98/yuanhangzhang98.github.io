@@ -12,3 +12,8 @@ Gemfile.lock
 vendor
 .claude/
 
+# Chinese CV — work in progress, not served
+assets/pdf/CV_zh.pdf
+assets/pdf/cv-zh.html
+assets/pdf/ustc.png
+
