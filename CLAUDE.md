@@ -1,6 +1,8 @@
 # yuanhangzhang98.github.io
 
-Personal homepage of **Yuanhang Zhang** — incoming faculty at USTC (fall 2026), currently postdoc at UC San Diego. Research: AI for physics, physics for AI, LLM-driven autonomous research.
+Personal homepage of **Yuanhang Zhang** — Professor (特任教授; always render the title in English as "Professor (特任教授)") at the School of Artificial Intelligence and Data Science, USTC (joined fall 2026; previously postdoc at UC San Diego). Office: B-523, Academic Building No. 1, High-Tech Campus (高新校区1号学科楼B-523). Research: AI for physics, physics for AI, LLM-driven autonomous research.
+
+Hiring status (as of Aug 2026): master's/PhD positions filled for the current cycle, new openings expected next year; undergrads and postdocs welcome any time. The "Hiring students" top banner has been removed from all pages — re-add it when new positions open. Contact email across the site is yuanhangzhang@ustc.edu.cn (the old UCSD address is retired). Chinese name: 张远航 (not 元).
 
 ## Stack
 
@@ -19,7 +21,7 @@ Then visit `http://localhost:8000/`.
 ```
 /
 ├── .nojekyll                  empty file — disables Jekyll on GH Pages
-├── index.html                 home: top banner, photo+intro hero, vision, pillars, 5 selected papers, recruiting, news
+├── index.html                 home: photo+intro hero, vision, pillars, 5 selected papers, recruiting, news
 ├── research/index.html        extended research vision + three pillars (each with a figure slot) + manifesto
 ├── papers/index.html          full publication list with topic filters
 ├── cv/index.html              CV (education / experience / talks) + PDF link
